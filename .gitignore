@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Dữ liệu & model (quản lý bằng DVC, không đẩy lên Git)
+data/
+datasets/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+runs/
+mlruns/
+wandb/
+
+# Hệ thống
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
